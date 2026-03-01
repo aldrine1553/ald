@@ -22,6 +22,7 @@ body {
 
 @media (max-width: 768px) {
     .whole-page {
+        display: grid;
         grid-template-columns: 1fr; /* Switch to a single column */
         gap: 20px;
     }
