@@ -20,6 +20,13 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 768px) {
+    .whole-page {
+        grid-template-columns: 1fr; /* Switch to a single column */
+        gap: 20px;
+    }
+}
+
 /* This styles the sidebar area */
 .sidebar {
     width: 200px;
