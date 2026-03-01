@@ -1,0 +1,78 @@
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: "Bodoni Moda", serif;
+    margin: 0;
+    /* This makes the page fill the browser window */
+    min-height: 90vh;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+}
+
+.whole-page {
+    display: flex;
+    justify-content: center; 
+    gap: 80px;    
+    margin-top: 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This styles the sidebar area */
+.sidebar {
+    width: 200px;
+    margin-top: 50px;
+    position: static;
+    width: 200px;            
+    flex-shrink: 0;          
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+h3 a {
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.nav-links a{
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li{
+    margin-bottom: 13px;
+    font-size: 22px;
+}
+
+a:hover {
+    color:rgb(111, 222, 194)
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about {
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 3em;
+    margin-right: 10em;
+}
+
+.contact {
+    margin-top: 3em;
+    line-height: 1.5;
+}
